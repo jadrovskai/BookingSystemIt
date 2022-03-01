@@ -1,0 +1,10 @@
+﻿@model IEnumerable<BookingSystemIt.Models.Reservation>
+
+<div id="searchresults">
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@item.DaysOfStaying</li>
+        }
+    </ul>
+</div>
